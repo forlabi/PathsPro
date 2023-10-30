@@ -1,0 +1,108 @@
+body {
+    background-color: #004057;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+#map { 
+    height: 180px;
+ }
+
+header {
+    background-color: #fff;
+    padding: 10px;   
+}
+
+nav {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+    color: #004057;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.about-page {
+    text-decoration: none;
+    color: #004057;;
+}
+
+.content {
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+
+/*Cordinate Input form*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.input-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.input-form input {
+    border: 1px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 4px;
+}
+
+.input-form button {
+    border: 1px;
+    border-radius: 4px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    margin-left: 3px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+}
+
+.input-form :placeholder-shown {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+}
+
+/* Footer */
+footer {
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer {
+    text-align: center;
+}
+
+

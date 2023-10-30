@@ -1,0 +1,50 @@
+body {
+    background-color: #004057;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+    color: #004057;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.content {
+    text-align: center;
+    color: #fff;
+    margin: 0 50px;
+    padding: 20px;
+    height: 70vh;
+}
+
+footer {
+    padding: 20px;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
