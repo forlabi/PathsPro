@@ -58,9 +58,7 @@ nav {
 }
 
 .input-form {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
     
 }
 
@@ -69,6 +67,8 @@ nav {
     padding: 10px;
     width: 200px;
     border-radius: 4px;
+    display: block;
+    margin: 0 auto;
 }
 
 .input-form button {
@@ -82,6 +82,7 @@ nav {
     cursor: pointer;
     font-family: 'Exo 2', sans-serif;
     font-weight: 300;
+    
 }
 
 .input-form :placeholder-shown {
