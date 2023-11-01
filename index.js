@@ -85,7 +85,7 @@ function haversineDistance(cord1, cord2) {
 
 
 document.addEventListener('DOMContentLoaded', function() {
-  setTimeout(function () {
+  
     const welcomePopup = document.getElementById('welcome-popup');
     const closePopupButton = document.getElementById('close-popup');
 
@@ -96,10 +96,10 @@ document.addEventListener('DOMContentLoaded', function() {
     closePopupButton.addEventListener('click', function() {
       
       welcomePopup.style.display = 'none';
-      }, 100);
+      },);
     });
   
 
 
 
-});
+

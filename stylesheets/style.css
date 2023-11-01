@@ -157,3 +157,15 @@ footer p {
 .footer {
   text-align: center;
 }
+
+.linkedin-link {
+  text-decoration: none;
+}
+
+.linkedin-icon {
+  width: 24px; 
+  height: auto; 
+  margin-left: 20px;
+  margin-top: 10px;
+  display: inline-block;
+}
