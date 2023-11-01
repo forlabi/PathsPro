@@ -84,7 +84,22 @@ function haversineDistance(cord1, cord2) {
 };
 
 
+document.addEventListener('DOMContentLoaded', function() {
+  setTimeout(function () {
+    const welcomePopup = document.getElementById('welcome-popup');
+    const closePopupButton = document.getElementById('close-popup');
+
+    // Display the popup when the page loads
+    welcomePopup.style.display = 'block';
+
+    // Close the popup when the close button is clicked
+    closePopupButton.addEventListener('click', function() {
+      
+      welcomePopup.style.display = 'none';
+      }, 100);
+    });
+  
 
 
 
-
+});
