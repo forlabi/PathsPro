@@ -52,7 +52,8 @@ nav {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Semi-transparent background */
 }
 
 .popup-content {
@@ -61,7 +62,8 @@ nav {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  background-color: #ffffff; /* Popup background color */
+  background-color: #ffffff;
+  /* Popup background color */
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -73,11 +75,13 @@ nav {
   right: 10px;
   font-size: 24px;
   cursor: pointer;
-  color: #000000; /* Close button color */
+  color: #000000;
+  /* Close button color */
 }
 
 .close-button:hover {
-  color: #ff0000; /* Change close button color on hover */
+  color: #ff0000;
+  /* Change close button color on hover */
 }
 
 /*Cordinate Input form*/
@@ -121,24 +125,34 @@ nav {
   font-weight: 300;
 }
 
-#fileUploader {
-  display: none; /* Hides the default file input */
+#excelFile {
+  display: none;
+  /* Hides the default file input */
 }
 
-.fileLabel{
-  background-color: #617589; /* Background color for the label */
-  color: #fff; /* Text color for the label */
-  padding: 10px 15px; /* Add padding for better visual appearance */
+.custom-file-label{
+  background-color: #617589;
+  /* Background color for the label */
+  color: #fff;
+  /* Text color for the label */
+  padding: 10px 15px;
+  /* Add padding for better visual appearance */
   margin-bottom: 10px;
-  cursor: pointer; /* Change cursor to pointer on hover for user interaction */
-  border-radius: 5px; /* Add some border radius for rounded corners */
-  display: inline-block; /* Make it inline block to match the input width */
-  width: 150px; /* Set a fixed width */
-  text-align: center; /* Center the text */
+  cursor: pointer;
+  /* Change cursor to pointer on hover for user interaction */
+  border-radius: 5px;
+  /* Add some border radius for rounded corners */
+  display: inline-block;
+  /* Make it inline block to match the input width */
+  width: 150px;
+  /* Set a fixed width */
+  text-align: center;
+  /* Center the text */
 }
 
-.fileLabel:hover {
-  background-color: #0056b3; /* Change background color on hover */
+.custom-file-label:hover {
+  background-color: #a2bcd7;
+  /* Change background color on hover */
 }
 
 
