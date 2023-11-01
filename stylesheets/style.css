@@ -121,20 +121,20 @@ nav {
   font-weight: 300;
 }
 
-#fileUploader {
+#excelFile {
   display: none; /* Hides the default file input */
 }
 
 .fileLabel{
-  background-color: #617589; /* Background color for the label */
-  color: #fff; /* Text color for the label */
-  padding: 10px 15px; /* Add padding for better visual appearance */
+  background-color: #617589; 
+  color: #fff; 
+  padding: 10px 15px; 
   margin-bottom: 10px;
-  cursor: pointer; /* Change cursor to pointer on hover for user interaction */
-  border-radius: 5px; /* Add some border radius for rounded corners */
-  display: inline-block; /* Make it inline block to match the input width */
-  width: 150px; /* Set a fixed width */
-  text-align: center; /* Center the text */
+  cursor: pointer; 
+  border-radius: 5px; 
+  display: inline-block; 
+  width: 150px; 
+  text-align: center; 
 }
 
 .fileLabel:hover {
