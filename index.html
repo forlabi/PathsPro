@@ -1,51 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;500&display=swap" rel="stylesheet">
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;500&display=swap" rel="stylesheet">
+  <!-- Include the FileSaver.js library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.8/xlsx.full.min.js"></script>
+
 
 
 </head>
-    <body>
-        <header>
-            <nav>
-                <div class="navbar">
-                    <a class="navbar-brand" href="#">PATHSPRO</a>
-                    <a class="about-page" href="/about.html">About</a>
-                </div>
-            </nav>
-        </header>
-        <div class="content">
-            <h1>Welcome to PathsPro!</h1>
-            <!-- <p>This is the homepage of PathsPro.</p> -->
-        </div>
-<!-- Form and Button -->
-    <div class="container">
-        <form class="input-form">
-            <input id="start" type="text" placeholder="Insert Starting coordinates here" /> 
-            <br>
-            <input id="stop" type="text" placeholder="Insert Destination coordinates here" />
-            <br>
-            <button id="btn" type="submit">Calculate</button>
-        </form>
-        <p id="result"></p>
+
+<body>
+  <header>
+    <nav>
+      <div class="navbar">
+        <a class="navbar-brand" href="#">PATHSPRO</a>
+        <a class="about-page" href="/about.html">About</a>
+      </div>
+    </nav>
+  </header>
+  <div class="content">
+    <h1>Welcome to PathsPro!</h1>
+    <!-- <p>This is the homepage of PathsPro.</p> -->
+  </div>
+  <!-- Form and Button -->
+  <div class="container">
+    <form class="input-form">
+      <input id="start" type="text" placeholder="Insert Starting coordinates here" />
+      <br>
+      <label>Upload an excel file</label>
+      <input type="file" id="excelFile" accept=".xlsx" name="hi">
+      <br>
+      <button id="btn" type="submit">Calculate</button>
+    </form>
+    <br>
+    <p id="result"></p>
+  </div>
+
+  <!-- Map Container -->
+  <div id="map">
+
+  </div>
+  <script src="/index.js"></script>
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer">
+      <p>&copy; 2023 PathsPro. All rights reserved.</p>
     </div>
+  </footer>
+</body>
 
-    <!-- Map Container -->
-    <div id="map">
-
-    </div>
-    <script src="/index.js"></script>
-   
-
-    <!-- Footer -->
-    <footer>
-        <div class="footer">
-            <p>&copy; 2023 PathsPro. All rights reserved.</p>
-        </div>
-    </footer>
-    </body>  
 </html>
