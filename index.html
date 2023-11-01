@@ -23,6 +23,19 @@
       </div>
     </nav>
   </header>
+
+  <div id="welcome-popup" class="popup">
+    <div class="popup-content">
+      <span class="close-button" id="close-popup">&times;</span>
+      <h1>Welcome to PathsPro</h1>
+      <p>"Greetings! 😊 I'm thrilled to introduce PathsPro, the application that simplifies calculating distances between a single central location and multiple remote sites. 
+     <br> 
+        <br>
+        Just enter the master coordinates in the designated field and upload an Excel file with the remote site coordinates. Our app will efficiently compute the distances and export the results to a convenient CSV file. Whether for professional or personal purposes, this tool streamlines distance calculations."</p>
+    </div>
+  </div>
+
+  
   <div class="content">
     <h1>Welcome to PathsPro!</h1>
     <!-- <p>This is the homepage of PathsPro.</p> -->
@@ -30,15 +43,14 @@
   <!-- Form and Button -->
   <div class="container">
     <form class="input-form">
-      <input id="start" type="text" placeholder="Insert Starting coordinates here" />
+      <input id="start" type="text" placeholder="Insert Master coordinates here" />
       <br>
-      <label>Upload an excel file</label>
-      <input type="file" id="excelFile" accept=".xlsx" name="hi">
+      <input type="file" accept=".xlsx" id="fileUploader">
+      <label for="excelFile" class="fileLabel">Upload Excel File</label>
       <br>
       <button id="btn" type="submit">Calculate</button>
     </form>
-    <br>
-    <p id="result"></p>
+
   </div>
 
   <!-- Map Container -->
