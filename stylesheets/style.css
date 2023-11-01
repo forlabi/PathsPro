@@ -170,3 +170,178 @@ footer p {
   display: inline-block;
 }
 
+@media (max-width: 768px) {
+  /* Styles for screens with a maximum width of 768px (mobile phones) */
+  body {
+    background-color: #004057;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #fff;
+    padding: 10px;
+  }
+  
+  nav {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bold;
+    color: #004057;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .about-page {
+    text-decoration: none;
+    color: #004057;
+    ;
+  }
+  
+  .content {
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Welcome PopUp  */
+  .popup {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  }
+  
+  .popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #ffffff; /* Popup background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #000000; /* Close button color */
+  }
+  
+  .close-button:hover {
+    color: #ff0000; /* Change close button color on hover */
+  }
+  
+  /*Cordinate Input form*/
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  
+  .input-form {
+    text-align: center;
+  
+  }
+  
+  .input-form input {
+    border: 1px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .input-form button {
+    border-radius: 4px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    margin-left: 3px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+  
+  }
+  
+  .input-form :placeholder-shown {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+  }
+  
+  #excelFile {
+    display: none; /* Hides the default file input */
+  }
+  
+  .fileLabel{
+    background-color: #617589; 
+    color: #fff; 
+    padding: 10px 15px; 
+    margin-bottom: 10px;
+    cursor: pointer; 
+    border-radius: 5px; 
+    display: inline-block; 
+    width: 150px; 
+    text-align: center; 
+  }
+  
+  .fileLabel:hover {
+    background-color: #0056b3; /* Change background color on hover */
+  }
+  
+  
+  /* Footer */
+  footer {
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .footer {
+    text-align: center;
+  }
+  
+  .linkedin-link {
+    text-decoration: none;
+  }
+  
+  .linkedin-icon {
+    width: 24px; 
+    height: auto; 
+    margin-left: 20px;
+    margin-top: 10px;
+    display: inline-block;
+  }
+}
