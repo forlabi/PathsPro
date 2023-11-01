@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function() {
     welcomePopup.style.display = 'block';
 
     // Close the popup when the close button is clicked
-    closePopupButton.addEventListener('click', function() {
+    window.addEventListener('click', function() {
       
       welcomePopup.style.display = 'none';
       },);
