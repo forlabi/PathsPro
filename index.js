@@ -58,7 +58,7 @@ function convertArrayOfObjectsToCSV(data, columnNames) {
 
 
 function haversineDistance(cord1, cord2) {
-  const radius = 6371; // Radius of the Earth in kilometers;
+  const radius = 6371; // Raadius of the Earth in kilometers;
   const [lat1, lon1] = cord1.split(/[, \s]+/);
   const [lat2, lon2] = cord2.split(/[, \s]+/);
 
