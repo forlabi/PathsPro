@@ -67,14 +67,6 @@ nav {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.close-button {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  font-size: 24px;
-  cursor: pointer;
-  color: #000000; /* Close button color */
-}
 
 .close-button:hover {
   color: #ff0000; /* Change close button color on hover */
@@ -170,7 +162,7 @@ footer p {
   display: inline-block;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 700px) {
   /* Styles for screens with a maximum width of 768px (mobile phones) */
   body {
     background-color: #004057;
@@ -221,11 +213,11 @@ footer p {
   /* Welcome PopUp  */
   .popup {
     display: none;
-    position: absolute;
+    /* position: absolute; */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100%;
+    width: 170%;
     height: auto;
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
   }
@@ -241,20 +233,6 @@ footer p {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
-  
-  .close-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 24px;
-    cursor: pointer;
-    color: #000000; /* Close button color */
-  }
-  
-  .close-button:hover {
-    color: #ff0000; /* Change close button color on hover */
-  }
-  
   /*Cordinate Input form*/
   
   .container {

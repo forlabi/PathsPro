@@ -83,11 +83,10 @@ function haversineDistance(cord1, cord2) {
   return distance.toFixed(2);
 };
 
-
+// Pop up welcome Message
 document.addEventListener('DOMContentLoaded', function() {
   
     const welcomePopup = document.getElementById('welcome-popup');
-    const closePopupButton = document.getElementById('close-popup');
 
     // Display the popup when the page loads
     welcomePopup.style.display = 'block';
