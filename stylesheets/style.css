@@ -32,7 +32,7 @@ nav {
   padding: 10px;
 }
 
-.about-page {
+.feedback {
   text-decoration: none;
   color: #004057;
   ;
@@ -165,7 +165,7 @@ footer p {
   display: inline-block;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
   /* Styles for screens with a maximum width of 768px (mobile phones) */
   body {
     background-color: #004057;
@@ -186,9 +186,8 @@ footer p {
   }
   
   .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    position: relative;
+    right: 50%;
   
   }
   
@@ -199,12 +198,14 @@ footer p {
     color: #004057;
     text-decoration: none;
     padding: 10px;
+    
   }
   
-  .about-page {
+  .feedback{
     text-decoration: none;
     color: #004057;
-    ;
+    position: relative;
+    left: 50%;
   }
   
   .content {
