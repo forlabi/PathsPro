@@ -54,6 +54,9 @@ nav {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
 }
+#tap-close {
+  color:#79899a;
+}
 
 .popup-content {
   position: absolute;
